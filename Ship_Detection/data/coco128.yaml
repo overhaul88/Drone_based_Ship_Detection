@@ -1,0 +1,29 @@
+path: /content/yolov5/Ships-Classification-1
+train: /content/yolov5/Ships-Classification-1/train/images
+val: /content/yolov5/Ships-Classification-1/valid/images
+test: /content/yolov5/Ships-Classification-1/test/images
+
+
+nc: 11
+
+# Classes
+names:
+  0: Aircraft Carrier
+  1: Bulkers
+  2: Car Carrier
+  3: Container Ship
+  4: Cruise
+  5: DDG
+  6: Recreational
+  7: Sailboat
+  8: Submarine
+  9: Tug
+  10: object
+
+
+roboflow:
+  license: CC BY 4.0
+  project: ships-classification-isn05
+  url: https://universe.roboflow.com/proj-pgxao/ships-classification-isn05/dataset/1
+  version: 1
+  workspace: proj-pgxao
